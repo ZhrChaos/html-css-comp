@@ -1,0 +1,108 @@
+*{
+    /* 24F */
+    box-sizing: border-box;
+}
+
+body{
+    /* 23F	 */
+    background-image: url("https://image.freepik.com/free-vector/cherry-blossom-with-cute-fox-background-in-flat-style_23-2147780451.jpg")
+}
+
+img{
+    width: 720px;
+    /* 25C-1	 */
+    position: relative;
+    left: 30%;
+    bottom: 100px;
+}
+
+video{
+    display: block;
+}
+
+audio{
+    /* 25C-3	 */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+h1{
+    /* 24C */
+    margin: 0px auto;
+    font-size: 10em;
+    /* 24E */
+    padding: 20px;
+    /* 24D */
+    border: solid rgb(246, 6, 246) 1px;
+    /* 23E */
+    background-color: aqua;
+}
+
+h2{
+    /* 25D	 */
+    float: right;
+}
+
+p{
+    /* 23D-1	 */
+    font-weight: 200;
+    /* 23D-2	 */
+    color: rgb(250, 35, 250);
+    /* 23D-3	 */
+    font-size: 1em;
+
+}
+
+span{
+    /* 25F */
+    display: block;
+}
+
+section{
+    /* 27G */
+    display: flex;
+    /* 27F	 */
+    flex-direction: column;
+    /* 27C	 */
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    /* 27D */
+    align-items: center;
+    /* 27E */
+    flex-wrap: wrap-reverse;
+    /* border: 1px white solid; */
+}
+
+footer{
+    /* 25C-2	 */
+    position: absolute;
+}
+
+/* 22C-1	 */
+#small{
+    font-size: .5em;
+}
+
+/* 22C-2	 */
+.bottomThings{
+    color: white;
+}
+
+/* 22C-3	 */
+article p{
+    font-size: 3em;
+}
+
+/* 22C-4	 */
+div>p{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* 22C-5	 */
+li + li{
+    color: aqua;
+}
